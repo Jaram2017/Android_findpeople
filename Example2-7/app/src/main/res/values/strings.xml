@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">연습문제 2–7</string>
+    <string name="toastBtn">글자 나타내기</string>
+    <string name="homeBtn">홈페이지 열기</string>
+    <string name="kitkatRadio">킷캣</string>
+    <string name="lollipopRadio">롤리팝</string>
+    <string name="imageView">이미지입니다.</string>
+</resources>
