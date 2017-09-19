@@ -3,56 +3,89 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+
     <TextView
-        android:id="@+id/View"
-        android:layout_width="wrap_content"
+        android:id="@+id/title"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:text="Title"
         android:textSize="20dp"
-        android:text="TextView"
-        android:background="#ffafaf" />
+        android:background="#DDDDDD" />
 
-    <TextView
-        android:id="@+id/Super"
+    <Button
+        android:id="@+id/prev"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/View"
-        android:textSize="30dp"
-        android:text="SuperText"
-        android:background="#4441aa"/>
+        android:text="PREV"
+        android:textSize="15dp"
+        android:layout_below="@id/title"
+        android:background="#DDDDDD" />
 
     <TextView
-        android:id="@+id/testtext"
+        android:id="@+id/next"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/View"
-        android:layout_toRightOf="@+id/Super"
-        android:background="#4ca"
-        android:text="TestText"
-        android:textSize="40dp" />
+        android:text="NEXT"
+        android:textSize="15dp"
+        android:layout_below="@id/title"
+        android:layout_toRightOf="@id/prev"
+        android:background="#DDDDDD" />
 
     <TextView
-        android:id="@+id/Blind"
+        android:id="@+id/close"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="BLINDTEXT"
-        android:textSize="40dp"
+        android:layout_alignBottom="@id/prev"
+        android:layout_alignParentEnd="true"
+        android:text="CLOSE"
+        android:textSize="15dp"
+        android:background="#DDDDDD" />
+
+    <TextView
+        android:id="@+id/green"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
         android:background="#4caf50"
-        android:layout_below="@id/View"
-        android:layout_alignParentStart="true"
-        android:layout_marginTop="42dp" />
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
 
     <TextView
-        android:id="@+id/Align"
+        android:id="@+id/one"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBottom="@id/Blind"
-        android:text="AlignText"
-        android:textSize="30dp"
-        android:background="#aa3333"
-        android:layout_toRightOf="@id/Blind"
-        android:layout_below="@id/testtext" />
+        android:layout_toRightOf="@id/green"
+        android:layout_marginBottom="10dp"
+        android:layout_above="@+id/two"
+        android:text="1"
+        android:background="#DDDDDD" />
 
+    <TextView
+        android:id="@+id/two"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/green"
+        android:layout_centerInParent="true"
+        android:text="2"
+        android:background="#DDDDDD" />
 
+    <TextView
+        android:id="@+id/three"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/green"
+        android:layout_below="@id/two"
+        android:layout_marginTop="10dp"
+        android:text="3"
+        android:background="#DDDDDD" />
+
+    <TextView
+        android:id="@+id/send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="SEND"
+        android:textSize="15dp"
+        android:background="#DDDDDD" />
 </RelativeLayout>
