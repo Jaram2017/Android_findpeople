@@ -12,6 +12,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.ArrayAdapter;
+import android.widget.ListView;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -40,6 +42,20 @@ public class MainActivity extends AppCompatActivity
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
+
+        ListView m_ListView;
+        ArrayAdapter<String> m_Adapter;
+
+        m_Adapter = new ArrayAdapter<String>(getApplicationContext(), android.R.layout.simple_list_item_1);
+
+        m_ListView = (ListView) findViewById(R.id.listview);
+        m_ListView.setAdapter(m_Adapter);
+
+        m_Adapter.add("New Folder");
+        m_Adapter.add("Week");
+        m_Adapter.add("Personal");
+        m_Adapter.add("Memo");
+        m_Adapter.add("+Create Index");
     }
 
     @Override
