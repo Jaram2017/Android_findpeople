@@ -1,73 +1,121 @@
 <?xml version="1.0" encoding="utf-8"?>
 <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:stretchColumns="1,3,5,7">
 
     <TableRow>
 
-        <TextView
+        <ImageButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="AAA"
-            android:textSize="30dp"
-            android:background="#ff77aa"/>
+            android:padding="0dp"
+            android:src="@mipmap/icon_2"/>
         <TextView
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="BBB"
-            android:textSize="30dp"
-            android:background="#ffff00"/>
-        <TextView
+            android:layout_height="wrap_content"/>
+        <ImageButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="CCC"
-            android:textSize="30dp"
-            android:background="#aaafaf"/>
+            android:padding="0dp"
+            android:src="@mipmap/icon_3"/>
         <TextView
             android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <ImageButton
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="DDD"
-            android:textSize="30dp"
-            android:background="#00aaff"/>
+            android:padding="0dp"
+            android:src="@mipmap/icon_5"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="0dp"
+            android:src="@mipmap/icon_7"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="0dp"
+            android:src="@mipmap/icon_8"/>
 
     </TableRow>
+    <TextView />
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="0dp"
+            android:src="@mipmap/icon_6"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="0dp"
+            android:src="@mipmap/icon_48"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="0dp"
+            android:src="@mipmap/icon_48"/>
 
+    </TableRow>
+    <TextView />
     <TableRow
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <TextView
+        <ImageButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="#aaffff"
-            android:text="111"
-            android:textSize="30dp" />
-        <TextView
+            android:padding="0dp"
+            android:src="@mipmap/icon_6"/><TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+        <ImageButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="#0ffa00"
-            android:text="222"
-            android:textSize="30dp" />
-        <TextView
+            android:padding="0dp"
+            android:src="@mipmap/icon_5"/><TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+        <ImageButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="#faaf00"
-            android:text="333"
-            android:textSize="30dp" />
-        <TextView
-            android:id="@+id/textView2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_column="7"
-            android:background="#afff00"
-            android:text="444"
-            android:textSize="30dp" />
+            android:padding="0dp"
+            android:src="@mipmap/icon_5"/>
         <TextView
             android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="#aa00af"
-            android:text="999"
-            android:textSize="30dp" />
+            android:padding="0dp"
+            android:src="@mipmap/icon_5" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="0dp"
+            android:src="@mipmap/icon_48"/>
 
 
     </TableRow>
