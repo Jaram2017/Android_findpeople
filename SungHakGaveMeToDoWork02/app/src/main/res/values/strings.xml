@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">SungHakGaveMeToDoWork02</string>
+    <string name="left_1stButton">New Folder</string>
+    <string name="left_2ndButton">Week</string>
+    <string name="left_3rdButton">Personal</string>
+    <string name="left_4thButton">Memo</string>
+    <string name="left_5thButton">+Create Index</string>
+    <string name="rightButton">Test</string>
+    <string name="bottomButton">Bottom</string>
+</resources>
