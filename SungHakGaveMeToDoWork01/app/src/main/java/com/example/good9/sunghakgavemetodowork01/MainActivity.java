@@ -44,18 +44,18 @@ public class MainActivity extends AppCompatActivity
         navigationView.setNavigationItemSelectedListener(this);
 
         ListView m_ListView;
-        ArrayAdapter<String> m_Adapter;
+        ArrayAdapter<String> itemArray;
 
-        m_Adapter = new ArrayAdapter<String>(getApplicationContext(), android.R.layout.simple_list_item_1);
+        itemArray = new ArrayAdapter<String>(getApplicationContext(), android.R.layout.simple_list_item_1);
 
         m_ListView = (ListView) findViewById(R.id.listview);
-        m_ListView.setAdapter(m_Adapter);
+        m_ListView.setAdapter(itemArray);
 
-        m_Adapter.add("New Folder");
-        m_Adapter.add("Week");
-        m_Adapter.add("Personal");
-        m_Adapter.add("Memo");
-        m_Adapter.add("+Create Index");
+        itemArray.add("New Folder");
+        itemArray.add("Week");
+        itemArray.add("Personal");
+        itemArray.add("Memo");
+        itemArray.add("+Create Index");
     }
 
     @Override
