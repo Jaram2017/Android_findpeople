@@ -2003,7 +2003,7 @@
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="settings.editor.selected.configurable" value="android.sdk-updates" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../FourButton" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Example4-2" />
     <property name="device.picker.selection" value="0715f7e233434034" />
   </component>
   <component name="RunManager" selected="Android App.app">
@@ -2216,8 +2216,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="87" y="83" width="1533" height="871" extended-state="1" />
-    <editor active="true" />
+    <frame x="87" y="83" width="1533" height="871" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
