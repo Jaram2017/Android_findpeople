@@ -24,30 +24,35 @@
                 android:layout_height="wrap_content"
                 android:background="@color/White"
                 android:textAllCaps="true"
+                android:textAlignment="textStart"
                 android:text="@string/left_1stButton" />
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@color/White"
                 android:textAllCaps="true"
+                android:textAlignment="textStart"
                 android:text="@string/left_2ndButton" />
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@color/White"
                 android:textAllCaps="true"
+                android:textAlignment="textStart"
                 android:text="@string/left_3rdButton" />
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@color/White"
                 android:textAllCaps="true"
+                android:textAlignment="textStart"
                 android:text="@string/left_4thButton" />
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@color/White"
                 android:textAllCaps="true"
+                android:textAlignment="textStart"
                 android:text="@string/left_5thButton" />
         </LinearLayout>
 
