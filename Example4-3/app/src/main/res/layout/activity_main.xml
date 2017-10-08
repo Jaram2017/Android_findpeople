@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp"
+    tools:context="com.example.good9.example4_3.MainActivity">
+
+    <EditText
+        android:id="@+id/first"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp" />
+
+    <EditText
+        android:id="@+id/second"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp" />
+
+    <Button
+        android:id="@+id/addButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/CornflowerBlue"
+        android:text="@string/add"
+        android:layout_margin="5dp" />
+
+    <Button
+        android:id="@+id/subtractButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/CornflowerBlue"
+        android:text="@string/subtract"
+        android:layout_margin="5dp" />
+
+    <Button
+        android:id="@+id/multiplyButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/CornflowerBlue"
+        android:text="@string/multiply"
+        android:layout_margin="5dp" />
+
+    <Button
+        android:id="@+id/divideButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/CornflowerBlue"
+        android:text="@string/divide"
+        android:layout_margin="5dp" />
+
+    <Button
+        android:id="@+id/modButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/CornflowerBlue"
+        android:text="@string/mod"
+        android:layout_margin="5dp" />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:textColor="@color/Red"
+        android:layout_margin="5dp" />
+
+</LinearLayout>
