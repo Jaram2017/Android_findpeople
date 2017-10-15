@@ -1,5 +1,6 @@
 package com.example.hak.android_hak;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.ExpandableListView;
@@ -28,6 +29,10 @@ public class MainActivity extends AppCompatActivity {
         adapter.addTest("Two", child2, 1);
 
         mainListView.setAdapter(adapter);
+
+        Intent intent = new Intent(this, StartActivity.class);
+
+        startActivity(intent);
 
     }
 
