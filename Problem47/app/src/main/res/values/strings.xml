@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Problem4-7</string>
+    <string name="cb1">Enable 속성</string>
+    <string name="cb2">Clickable 속성</string>
+    <string name="cb3">45도 회전</string>
+    <string name="btn">Button</string>
+</resources>
