@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.good9.example5_1.MainActivity">
+
+    <Button
+        android:layout_width="110dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:gravity="top|center"
+        android:text="@string/button1" />
+    <Button
+        android:layout_width="110dp"
+        android:layout_height="100dp"
+        android:layout_gravity="start"
+        android:gravity="start|center"
+        android:text="@string/button2" />
+
+    <Button
+        android:layout_width="110dp"
+        android:layout_height="100dp"
+        android:layout_gravity="end"
+        android:gravity="end|bottom"
+        android:text="@string/button3" />
+
+</LinearLayout>
